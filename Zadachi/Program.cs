@@ -52,3 +52,20 @@
 //             return AckermannFunction(m - 1, AckermannFunction(m, n - 1));
 //         }
 //     }
+
+// Задача 3: Задайте произвольный массив.
+// Выведете его элементы, начиная с конца. Использовать рекурсию, не использовать циклы.
+
+// int[] Array = { 1, 2, 3, 4, 5 };
+        
+//     Console.WriteLine("Элементы массива, начиная с конца:");
+//     PrintArrayReversed(Array, Array.Length - 1);
+
+// void PrintArrayReversed(int[] array, int index)
+// {
+//     if (index >= 0)
+//     {
+//         Console.WriteLine(array[index]);
+//         PrintArrayReversed(array, index - 1);
+//     }
+// }
